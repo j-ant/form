@@ -5,8 +5,8 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: url('./img/freestocks-Y9mWkERHYCU-unsplash.jpg') center/cover
-    no-repeat;
+  background: url('https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
+    center/cover no-repeat;
 }
 
 .form-container {
