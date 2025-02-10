@@ -5,7 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: url('/img/freestocks-Y9mWkERHYCU-unsplash.jpg') center/cover
+  background: url('./img/freestocks-Y9mWkERHYCU-unsplash.jpg') center/cover
     no-repeat;
 }
 
