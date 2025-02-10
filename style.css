@@ -1,0 +1,70 @@
+/* style.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: url('/img/freestocks-Y9mWkERHYCU-unsplash.jpg') center/cover
+    no-repeat;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.2); /* Translucent white */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  backdrop-filter: blur(10px); /* Adds a blur effect */
+}
+
+h2 {
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.btn-container {
+  margin-top: 15px;
+}
+
+button {
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #e63950;
+}
+
+#no-btn {
+  background: #444;
+}
+
+#no-btn:hover {
+  background: #222;
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7); /* Dim background */
+  display: none; /* Initially hidden */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#overlay img {
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 10px;
+}
